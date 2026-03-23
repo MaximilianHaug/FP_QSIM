@@ -1,0 +1,5 @@
+Next create a file called .gitignore in the root of your repository with the following content:
+local/
+__pycache__/
+.venv/
+uv.lock
