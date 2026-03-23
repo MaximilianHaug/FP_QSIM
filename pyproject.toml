@@ -1,0 +1,14 @@
+[project]
+name = "fp-qsim"
+version = "0.1.0"
+description = "fp project"
+readme = "README.md"
+authors = [
+    { name = "bennimaximi", email = "benjamingrasselt@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
