@@ -12,6 +12,7 @@ dependencies = [
     "mypy>=1.19.1",
     "numpy>=2.4.3",
     "pre-commit>=4.5.1",
+    "pytest>=9.0.2",
     "ruff>=0.15.7",
     "ty>=0.0.24",
 ]
@@ -55,3 +56,7 @@ check_untyped_defs = true
 [[tool.mypy.overrides]]
 module = "numpy.*"
 ignore_missing_imports = true
+
+[mypy]
+warn_return_any = true
+warn_unused_configs = true
